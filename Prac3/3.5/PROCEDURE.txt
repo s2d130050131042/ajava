@@ -1,0 +1,21 @@
+-- Function: student1()
+
+-- DROP FUNCTION student1();
+
+CREATE OR REPLACE FUNCTION student1()
+  RETURNS TABLE(id integer, name character varying, branch character varying) AS
+$BODY$
+DECLARE
+    
+BEGIN
+RETURN QUERY
+   SELECT * FROM student
+    WHERE student.branch='CSE';
+    RETURN;
+END
+$BODY$
+  LANGUAGE plpgsql VOLATILE
+  COST 100
+  ROWS 1000;
+ALTER FUNCTION student1()
+  OWNER TO postgres;
