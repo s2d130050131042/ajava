@@ -1,3 +1,15 @@
 3.5 Write a PL/SQL Function (StoredProcedure) to retrieve all the student information whose branch is CSE and using java program display all selected records on console.
 (!snapshot 3.5)![ss](https://cloud.githubusercontent.com/assets/16952223/13005160/fc81e83a-d1a5-11e5-8320-998657586ead.JPG)
 3.6 Consider Bank Table with attributes AccountNo, Customer Name, Balance, Phone and Address. Write a JDBC Program which allows insertion, updation and deletion of record in Bank Table. Print values of all customers whose balance is greater then specified amount. (Hint: program should be menu driven).
+![create db](https://cloud.githubusercontent.com/assets/16952223/13026425/91d40600-d24d-11e5-8509-0ce895991ae1.JPG)
+![delete](https://cloud.githubusercontent.com/assets/16952223/13026426/91df0c62-d24d-11e5-8acf-cf54caa66906.JPG)
+![exit](https://cloud.githubusercontent.com/assets/16952223/13026427/91eb0d00-d24d-11e5-9bab-b97a3f0f4f10.JPG)
+![insert acnt 1](https://cloud.githubusercontent.com/assets/16952223/13026428/91f61bc8-d24d-11e5-913f-c8288d330458.JPG)
+![insert acnt 2](https://cloud.githubusercontent.com/assets/16952223/13026429/91ff46a8-d24d-11e5-8c85-2288a62c9f9f.JPG)
+![insert acnt 3](https://cloud.githubusercontent.com/assets/16952223/13026430/920b15dc-d24d-11e5-9706-57a410c821a7.JPG)
+![more then](https://cloud.githubusercontent.com/assets/16952223/13026431/9220aac8-d24d-11e5-8894-24376e0f3c49.JPG)
+![update](https://cloud.githubusercontent.com/assets/16952223/13026432/922bd83a-d24d-11e5-9758-dc3fbbef0c8d.JPG)
+62c9f9f.JPG)
+![insert acnt 3](https://cloud.githubusercontent.com/assets/16952223/13026430/920b15dc-d24d-11e5-9706-57a410c821a7.JPG)
+![more then](https://cloud.githubusercontent.com/assets/16952223/13026431/9220aac8-d24d-11e5-8894-24376e0f3c49.JPG)
+![update](https://cloud.githubusercontent.com/assets/16952223/13026432/922bd83a-d24d-11e5-9758-dc3fbbef0c8d.JPG)
