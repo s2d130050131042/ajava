@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+ Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+                      http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+  version="3.0"
+  metadata-complete="true">
+
+  <display-name>Welcome to Tomcat</display-name>
+  <description>
+     Welcome to Tomcat
+  </description>
+	<servlet>
+        <servlet-name>Hello</servlet-name>
+        <servlet-class>helloservlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Hello</servlet-name>
+		<url-pattern>/hello</url-pattern>
+	</servlet-mapping>
+
+   <servlet>
+        <servlet-name>Date</servlet-name>
+        <servlet-class>dateservlet</servlet-class>
+		</servlet>
+		<servlet-mapping>
+		<servlet-name>Date</servlet-name>
+		<url-pattern>/date</url-pattern>
+		</servlet-mapping>
+		
+	<servlet>
+        <servlet-name>HolisticCount</servlet-name>
+        <servlet-class>holisticcounter</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>HolisticCount</servlet-name>
+		<url-pattern>/hcounter</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>Count</servlet-name>
+        <servlet-class>countservlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Count</servlet-name>
+		<url-pattern>/count</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>InitCount</servlet-name>
+        <servlet-class>InitCounter</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>InitCount</servlet-name>
+		<url-pattern>/init</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>Snoop</servlet-name>
+        <servlet-class>snoopserver</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Snoop</servlet-name>
+		<url-pattern>/snoop</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>Header</servlet-name>
+        <servlet-class>serverheader</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Header</servlet-name>
+		<url-pattern>/header</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>Dice</servlet-name>
+        <servlet-class>dice</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Dice</servlet-name>
+		<url-pattern>/rolldice</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>Parameter</servlet-name>
+        <servlet-class>initparam</servlet-class>
+		
+		<init-param>  
+			<param-name>username</param-name>  
+			<param-value>system</param-value>  
+		</init-param>  
+  
+		<init-param>  
+			<param-name>password</param-name>  
+			<param-value>apache</param-value>  
+		</init-param>  
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Parameter</servlet-name>
+		<url-pattern>/initparameter</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>Time</servlet-name>
+        <servlet-class>timerefresh</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Time</servlet-name>
+		<url-pattern>/time</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>HelloPage</servlet-name>
+        <servlet-class>form</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>HelloPage</servlet-name>
+		<url-pattern>/hellopage</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>LoginPage</servlet-name>
+        <servlet-class>loggedinpage</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginPage</servlet-name>
+		<url-pattern>/loggedin</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>Hobby</servlet-name>
+        <servlet-class>checkform</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Hobby</servlet-name>
+		<url-pattern>/hobbies</url-pattern>
+	</servlet-mapping>
+
+		<servlet>
+        <servlet-name>Session</servlet-name>
+        <servlet-class>sessioncheck</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Session</servlet-name>
+		<url-pattern>/session</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>Sessionb</servlet-name>
+        <servlet-class>booleansession</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Sessionb</servlet-name>
+		<url-pattern>/bsession</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>HelloWorld</servlet-name>
+        <servlet-class>hello</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>HelloWorld</servlet-name>
+		<url-pattern>/helloworld</url-pattern>
+	</servlet-mapping>
+</web-app>
