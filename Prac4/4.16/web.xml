@@ -1,0 +1,9 @@
+<servlet>
+   <servlet-name>AccessTimeSession</servlet-name>
+   <servlet-class>AccessTimeSession</servlet-class>
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>AccessTimeSession</servlet-name>
+   <url-pattern>/AccessTimeSession</url-pattern>
+</servlet-mapping>

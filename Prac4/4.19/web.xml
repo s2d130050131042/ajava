@@ -1,0 +1,9 @@
+<servlet>
+   <servlet-name>InsertStatement</servlet-name>
+   <servlet-class>InsertStatement</servlet-class>
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>InsertStatement</servlet-name>
+   <url-pattern>/InsertStatement</url-pattern>
+</servlet-mapping>

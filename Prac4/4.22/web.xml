@@ -1,0 +1,10 @@
+<servlet>
+   <servlet-name>SelectData</servlet-name>
+   <servlet-class>SelectData</servlet-class>
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>SelectData</servlet-name>
+   <url-pattern>/SelectData</url-pattern>
+</servlet-mapping>
+
